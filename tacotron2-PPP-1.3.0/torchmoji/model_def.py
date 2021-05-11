@@ -253,7 +253,7 @@ class TorchMoji(nn.Module):
             return outputs
 
 
-def load_specific_weights(model, weight_path, exclude_names=[], extend_embedding=0, verbose=True):
+def load_specific_weights(model, weight_path, exclude_names=[], extend_embedding=0, verbose=False):
     """ Loads model weights from the given file path, excluding any
         given layers.
 
