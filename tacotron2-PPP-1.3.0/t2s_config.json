@@ -12,7 +12,7 @@
         "default_model": "Tacotron2 Torchmoji v0.22.1 (Large Prenet 188K)",
         "models": {
             "Tacotron2 Torchmoji v0.22.1 (Large Prenet 188K)": {
-                "modelpath": "checkpoint_188000_weights_copy"
+                "modelpath": "tacotron2-torchmoji-v0.22.1-largeprenet188k/checkpoint_188000_weights_copy"
             }
         }
     },
@@ -22,8 +22,8 @@
         "default_model": "LargeWaveGlow V3.5 (GT, 48 Flow, n_group 24 190K)",
         "models": {
             "LargeWaveGlow V3.5 (GT, 48 Flow, n_group 24 190K)": {
-                "modelpath": "best_val_weights",
-                "configpath": "config.json"
+                "modelpath": "waveglow-v3.5-largegt48flown_group24190k-checkpoint188000-notf2/best_val_weights",
+                "configpath": "waveglow-v3.5-largegt48flown_group24190k-checkpoint188000-notf2/config.json"
             }
         }
     }
