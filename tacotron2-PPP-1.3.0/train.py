@@ -6,6 +6,7 @@ import numpy as np
 from numpy import finfo
 
 import torch
+from distributed import apply_gradient_allreduce
 import torch.distributed as dist
 from torch.utils.data.distributed import DistributedSampler
 from torch.utils.data import DataLoader
@@ -287,4 +288,3 @@ def calculate_global_mean(data_loader, global_mean_npy, hparams):
     if global_mean_npy:
         np.save(global_mean_npy, global_mean.cpu().numpy())
     return global_mean
-
