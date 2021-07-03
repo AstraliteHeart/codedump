@@ -6,11 +6,9 @@ import numpy as np
 from numpy import finfo
 
 import torch
-from distributed import apply_gradient_allreduce
 import torch.distributed as dist
 from torch.utils.data.distributed import DistributedSampler
 from torch.utils.data import DataLoader
-from torch.optim.lr_scheduler import ReduceLROnPlateau
 
 from model import load_model
 from model import Tacotron2
